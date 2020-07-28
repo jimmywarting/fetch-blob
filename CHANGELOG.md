@@ -1,9 +1,12 @@
 Changelog
 =========
 
+## v2.1.1
+- start in create readableStream was not defined.
+
 ## v2.1.0
 - Fix: .slice has an implementation bug (#54).
-- Added blob backed up by filesystem (#55)
+- Added blob backed up by filesystem (#55).
 
 ## v2.0.1
 

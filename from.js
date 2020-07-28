@@ -8,7 +8,7 @@ const DOMException = require('domexception');
  */
 function blobFrom(path) {
 	const {size, mtime} = statSync(path);
-	const blob = new BlobDataItem({path, size, mtime});
+	const blob = new BlobDataItem({path, size, mtime, start: 0});
 
 	return new Blob([blob]);
 }
